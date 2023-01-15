@@ -1,0 +1,64 @@
+@media (max-width: 800px) {
+  .menu__button {
+    display: flex;
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 25px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .menu__button .menu-burger::after {
+    content: "";
+    background-color: white;
+    color: white;
+    width: 25px;
+    height: 1px;
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .menu__button .menu-burger::before {
+    content: "";
+    background-color: white;
+    color: white;
+    width: 25px;
+    height: 2px;
+    display: block;
+    margin-top: -8px;
+  }
+
+  .menu__list {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0;
+    background-color: var(--light-blue-magenta);
+    height: 0px;
+    z-index: 1000;
+    visibility: hidden;
+    overflow-y: hidden;
+    transition: .6s;
+  }
+
+  .menu__list .menu__link {
+    margin: .5rem;
+    border-bottom: 2px solid var(--white);
+  }
+
+  .menu .menu__link:hover {
+    color: var(--light-green);
+    border-color: var(--light-green);
+    transition: 800ms;
+  }
+
+  .menu.active .menu__list {
+    display: block;
+    visibility: visible;
+    overflow-y: auto;
+    height: calc(100vh - 70px);
+  }
+}

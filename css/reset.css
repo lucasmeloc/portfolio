@@ -1,0 +1,25 @@
+:root {
+  --light-blue-magenta: #221E39;
+  --bolder-blue-magenta: #110F22;
+  --bold-blue-magenta: #161425;
+  --medium-blue-magenta: #1B192D;
+  --dark-green: #5fbe8b;
+  --light-green: #7bfdaf;
+  --white: #DFDAFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+h3 {
+  font-family: "League Spartan", sans-serif;
+}
+
+h1,
+h2,
+.menu__link {
+  font-family: "Solway", serif;
+}

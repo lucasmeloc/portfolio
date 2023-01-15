@@ -1,0 +1,35 @@
+/* General Settings */
+
+.container {
+  background-color: var(--light-blue-magenta);
+  height: auto;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.menu__button {
+  display: none;
+}
+
+.menu__list {
+  list-style: none;
+  display: flex;
+  gap: 1.25rem;
+}
+
+.menu__link {
+  display: block;
+  text-decoration: none;
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: .5rem;
+}
+
+.menu__link:hover {
+  color: var(--light-green);
+  transition: 600ms;
+}
