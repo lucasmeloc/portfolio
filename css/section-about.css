@@ -1,0 +1,35 @@
+.about {
+  background-color: var(--medium-blue-magenta);
+  padding: 60px;
+}
+
+.about__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about__title {
+  margin-bottom: 60px;
+  color: var(--light-green);
+}
+
+.about__description {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 300;
+  color: var(--white);
+  margin-bottom: 60px;
+  max-width: 800px;
+}
+
+.about__technology {
+  padding: 10px 20px;
+  font-size: 1.25rem;
+  font-weight: 300;
+  background-color: var(--light-blue-magenta);
+  border-radius: 5px;
+  margin-right: 10px;
+  color: var(--white);
+  display: inline-block;
+  margin-bottom: 10px;
+}
