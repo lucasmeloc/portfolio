@@ -1,10 +1,3 @@
-@import url("./reset.css");
-@import url("./header.css");
-@import url("./section-introduction.css");
-@import url("./section-projects.css");
-@import url("./section-about.css");
-@import url("./responsive.css");
-
 .footer {
   background-color: var(--light-blue-magenta);
   padding: 60px;
