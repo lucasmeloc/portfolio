@@ -1,3 +1,14 @@
+@media (max-width: 920px) {
+  .project {
+    flex-direction: column;
+  }
+
+  .project__description {
+    gap: 20px;
+    place-self: center;
+  }
+}
+
 @media (max-width: 800px) {
 
   .logo {
