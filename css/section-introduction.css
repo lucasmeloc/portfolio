@@ -1,0 +1,37 @@
+.introduction {
+  background-color: var(--bolder-blue-magenta);
+  padding: 20px;
+}
+
+.introduction .introduction__container {
+  max-width: 1200px;
+  height: auto;
+  gap: 1rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.introduction__image {
+  max-width: 100%;
+  width: 347px;
+  border-radius: 50%;
+}
+
+.introduction .title {
+  font-size: clamp(1.5rem, 1.75rem + 1vw, 2.5rem);
+  max-width: 650px;
+  color: var(--dark-green);
+  margin-bottom: 20px;
+}
+
+.description-white {
+  color: var(--white);
+}
+
+.introduction address {
+  color: var(--dark-green);
+  font-style: normal;
+  font-size: 1.25rem;
+}
