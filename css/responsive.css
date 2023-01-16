@@ -1,33 +1,34 @@
 @media (max-width: 800px) {
+
+  .logo {
+    z-index: 2000;
+    margin-left: 20px;
+  }
+
   .menu__button {
     display: flex;
+    color: var(--white);
+    padding: .5rem 1rem;
     background: none;
-    border: none;
     cursor: pointer;
-    width: 25px;
-    background-color: white;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    border: none;
+    font-size: 1rem;
+    align-items: center;
   }
 
-  .menu__button .menu-burger::after {
-    content: "";
-    background-color: white;
-    color: white;
-    width: 25px;
-    height: 1px;
+  .menu-burger {
     display: block;
-    margin-bottom: 8px;
+    width: 30px;
+    border-top: 3px solid var(--white);
   }
 
-  .menu__button .menu-burger::before {
+  .menu-burger::after,
+  .menu-burger::before {
     content: "";
-    background-color: white;
-    color: white;
-    width: 25px;
-    height: 2px;
     display: block;
-    margin-top: -8px;
+    width: 30px;
+    margin-top: 5px;
+    border-top: 3px solid var(--white);
   }
 
   .menu__list {
@@ -60,5 +61,15 @@
     visibility: visible;
     overflow-y: auto;
     height: calc(100vh - 70px);
+  }
+
+  .introduction__container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 400px) {
+  .introduction__image {
+    width: 250px;
   }
 }
