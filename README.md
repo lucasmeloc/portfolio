@@ -17,7 +17,7 @@ Esse é o projeto [Portfólio](https://lucasmeloc.github.io/portfolio/).
 
 ### Criei utilizando
 
-- Semantic HTML5 markup
+- HTML5 Semântico
 - CSS Box model
 - Flexbox
 - Media queries
