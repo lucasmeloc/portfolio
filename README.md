@@ -5,10 +5,10 @@ Esse é o projeto [Portfólio](https://lucasmeloc.github.io/portfolio/).
 ## Sumário dos Conteúdos
 
 - [Screenshot](###screenshot)
-- [Criei utilizando](###criei-utilizando)
-- [O que eu aprendi?](###o-que-eu-aprendi)
-- [Continuar aprimorando conhecimentos](###continuar-aprimorando-os-conhecimentos)
-- [Recursos utilitários](###recursos-utilitarios)
+- [Criei utilizando](#criei-utilizando)
+- [O que eu aprendi?](#o-que-eu-aprendi)
+- [Continuar aprimorando conhecimentos](#continuar-aprimorando-os-conhecimentos)
+- [Recursos utilitários](#recursos-utilitarios)
 - [Autor](#autor)
 
 ### Screenshot
@@ -25,7 +25,7 @@ Esse é o projeto [Portfólio](https://lucasmeloc.github.io/portfolio/).
 
 ### O que eu aprendi
 
-I aprendi a utilizar algumas das propriedades de css flexbox para complementar com a responsividade da página assim como também incluir propriedades de box model no projeto.
+Eu aprendi a utilizar algumas das propriedades de css flexbox para complementar com a responsividade da página assim como também incluir propriedades de box model no projeto.
 
 ### Continuar aprimorando os conhecimentos
 
